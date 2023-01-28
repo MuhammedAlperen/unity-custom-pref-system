@@ -271,7 +271,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_playerInventory:
-    m_items: []
+    m_items:
+    - Name: Apple
+      Count: 5
+    - Name: Sword
+      Count: 1
+    - Name: Coins
+      Count: 24
 --- !u!4 &1510234984
 Transform:
   m_ObjectHideFlags: 0

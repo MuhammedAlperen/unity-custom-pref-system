@@ -8,11 +8,12 @@ namespace PrefSystem.Demo.Scripts.Runtime
     {
         [SerializeField] private Inventory m_playerInventory;
 
+        // Needs to be injected. For demo purposes i'm using a custom inspector.
         private IPrefManager _prefManager;
-        
+
         public void SaveItemsToPrefs()
         {
-            var inventoryJson = JsonUtility.ToJson(m_playerInventory);
+            var inventoryJson = JsonUtility.ToJson(m_playerInventory, true);
             _prefManager.SetString("Items", inventoryJson);
         }
 
@@ -27,10 +28,6 @@ namespace PrefSystem.Demo.Scripts.Runtime
     public class Inventory
     {
         [SerializeField] private Item[] m_items;
-        public Inventory(Item[] items)
-        {
-            m_items = items;
-        }
     }
 
     [Serializable]
