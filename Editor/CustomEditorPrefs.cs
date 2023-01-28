@@ -7,7 +7,7 @@ namespace PrefSystem.Editor
     [CreateAssetMenu(fileName = "EditorPrefs", menuName = "PrefSystem/EditorPrefs")]
     public class CustomEditorPrefs : CustomPrefManager
     {
-        private const string PrefAssetPath = "Assets/Resources/Prefs/EditorPrefs.asset";
+        private const string PrefAssetPath = "Assets/ScriptableObjects/Editor/Prefs/EditorPrefs.asset";
 
         public static IPrefManager Instance => _instance ??= GetPrefAsset();
         private static IPrefManager _instance;
