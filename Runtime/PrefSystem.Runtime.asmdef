@@ -1,10 +1,7 @@
-
 {
     "name": "PrefSystem.Runtime",
     "rootNamespace": "",
-    "references": [
-"GUID:ea8c8c6f4696cc14594188291729d416"
-],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

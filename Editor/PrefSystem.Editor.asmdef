@@ -2,9 +2,7 @@
     "name": "PrefSystem.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:92990a36b9462cd408e4c6280ee405f7",
-        "GUID:da750b36258179e41a9b0d5ac8237bea",
-        "GUID:ea8c8c6f4696cc14594188291729d416"
+        "GUID:92990a36b9462cd408e4c6280ee405f7"
     ],
     "includePlatforms": [
         "Editor"
