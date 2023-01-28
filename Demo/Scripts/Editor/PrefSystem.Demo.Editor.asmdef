@@ -1,10 +1,14 @@
 {
-    "name": "PrefSystem.Demo",
+    "name": "PrefSystem.Demo.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:92990a36b9462cd408e4c6280ee405f7"
+        "GUID:5175754f65c08bc40a30feddc63ca18a",
+        "GUID:92990a36b9462cd408e4c6280ee405f7",
+        "GUID:f583971196edd7942b02b4ef0c48277f"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

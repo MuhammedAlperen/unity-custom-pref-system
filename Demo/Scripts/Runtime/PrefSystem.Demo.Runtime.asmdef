@@ -1,0 +1,16 @@
+{
+    "name": "PrefSystem.Demo.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:92990a36b9462cd408e4c6280ee405f7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
