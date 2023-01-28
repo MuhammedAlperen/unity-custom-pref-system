@@ -1,0 +1,17 @@
+
+{
+    "name": "PrefSystem.Runtime",
+    "rootNamespace": "",
+    "references": [
+"GUID:ea8c8c6f4696cc14594188291729d416"
+],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
